@@ -1,0 +1,12 @@
+mvn clean package
+
+v1
+
+docker build -t te/demo:1 --file classes/docker/v1/Dockerfile .
+
+
+docker run -p 8080:8080 --name demo1 -it te/demo:1
+
+
+
+
