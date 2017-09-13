@@ -15,6 +15,10 @@ docker build -t te/demo:2 --file classes/docker/v2/Dockerfile .
 docker run --privileged --name mongo_bundled te/demo:2
 
 
+
+---
+v3
+
 ---------------------------------------------------------------
 
 remove all untagged images
