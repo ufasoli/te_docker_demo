@@ -19,6 +19,8 @@ docker run --privileged --name mongo_bundled te/demo:2
 ---
 v3
 
+docker-compose up
+
 ---------------------------------------------------------------
 
 remove all untagged images
